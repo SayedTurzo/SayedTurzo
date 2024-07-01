@@ -12,7 +12,6 @@ I'm a game developer with a passion for creating immersive and engaging experien
 - 📫 How to reach me: abusayedbinabdullah@gmail.com
 - ⚡ Fun fact: I love experimenting with game mechanics and creating unique gameplay experiences.
 
-- ![Coding GIF](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
 
 ### My Skills
 - 🎨 Game Design
