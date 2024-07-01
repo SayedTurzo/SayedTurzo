@@ -1,0 +1,21 @@
+name: Commit Activity
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update README with commit activity
+        uses: jstrieb/github-stats@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: README.md
