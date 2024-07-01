@@ -19,6 +19,9 @@ I'm a game developer with a passion for creating immersive and engaging experien
 - 🎵 Sound Design
 - 🛠️ Tools: Unity, Unreal Engine, Photon, Fishnet, Mirror, WebRTC, Firebase, Playfab, Amazon AWS
 
+### Most Used Languages
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SayedTurzo&layout=compact)](https://github.com/SayedTurzo/github-readme-stats)
+
 ### Experience
 
 **Game Developer**  
