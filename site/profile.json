@@ -1,0 +1,160 @@
+{
+  "name": "Sayed Turzo",
+  "username": "SayedTurzo",
+  "headline": "I build worlds you can play.",
+  "bio": "Game developer working across Unity, Unreal Engine and Roblox. Gameplay, multiplayer worlds, VR simulations — and the systems that bring them to life.",
+  "siteUrl": "https://sayedturzo.github.io/SayedTurzo/",
+  "email": "abusayedbinabdullah@gmail.com",
+  "portfolio": "https://sites.google.com/view/sayedturzo/",
+  "linkedin": "https://www.linkedin.com/in/sayedturzo/",
+  "theme": {
+    "accent": "#c5ff61",
+    "secondary": "#a99cff",
+    "background": "#0b0d12"
+  },
+  "skills": [
+    {
+      "category": "Engines & platforms",
+      "items": [
+        "Unity",
+        "Unreal Engine",
+        "Roblox"
+      ]
+    },
+    {
+      "category": "Code",
+      "items": [
+        "C#",
+        "C++",
+        "Python",
+        "JavaScript"
+      ]
+    },
+    {
+      "category": "Multiplayer & backend",
+      "items": [
+        "Photon",
+        "FishNet",
+        "Mirror",
+        "WebRTC",
+        "Firebase",
+        "PlayFab",
+        "AWS"
+      ]
+    },
+    {
+      "category": "Creative & workflow",
+      "items": [
+        "Blender",
+        "Figma",
+        "Git",
+        "Shaders",
+        "VR",
+        "Optimization"
+      ]
+    }
+  ],
+  "games": [
+    {
+      "id": "clean-a-crime",
+      "title": "Clean a Crime",
+      "platform": "Roblox",
+      "description": "A Roblox experience I worked on.",
+      "url": "https://www.roblox.com/games/126295191500786/Clean-a-Crime",
+      "accent": "#c5ff61",
+      "symbol": "01",
+      "featured": true
+    },
+    {
+      "id": "disgusting",
+      "title": "OMG! This Place Is DISGUSTING",
+      "platform": "Roblox",
+      "description": "A Roblox experience I worked on.",
+      "url": "https://www.roblox.com/games/81057871278887/OMG-This-Place-Is-DISGUSTING",
+      "accent": "#a99cff",
+      "symbol": "02",
+      "featured": true
+    },
+    {
+      "id": "spaceholic",
+      "title": "Spaceholic!",
+      "platform": "Mobile",
+      "description": "Space-themed mobile game.",
+      "url": "https://play.google.com/store/apps/details?id=com.medievilstudio.spaceholic",
+      "accent": "#72dcff",
+      "symbol": "03",
+      "featured": true
+    },
+    {
+      "id": "burgerology",
+      "title": "Burgerology",
+      "platform": "Mobile",
+      "description": "A cooking game for mobile.",
+      "url": "https://play.google.com/store/apps/details?id=com.medievil.burgerology",
+      "accent": "#ffb579",
+      "symbol": "04"
+    },
+    {
+      "id": "shark-attack",
+      "title": "Shark Attack",
+      "platform": "Mobile",
+      "description": "An action-packed shark game.",
+      "url": "https://play.google.com/store/apps/details?id=com.fpg.sharkattack",
+      "accent": "#72dcff",
+      "symbol": "05"
+    },
+    {
+      "id": "war-troops",
+      "title": "War Troops 1917",
+      "platform": "Mobile",
+      "description": "Trench warfare for mobile.",
+      "url": "https://play.google.com/store/apps/details?id=com.wartroops1917.trench.warfare",
+      "accent": "#ffb579",
+      "symbol": "06"
+    }
+  ],
+  "worlds": [
+    {
+      "title": "Met City",
+      "description": "Unity · WebGL · Multiplayer · AWS",
+      "url": "https://metcity.xyz/"
+    },
+    {
+      "title": "E-Gold City",
+      "description": "Unity · Metaverse · Interactive worlds",
+      "url": "https://metaverse.egold.farm/"
+    },
+    {
+      "title": "Nanoverse",
+      "description": "Unity · Virtual worlds · Interactive systems",
+      "url": "https://nanoverse.io/"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Game Developer",
+      "company": "MediEvil Studio",
+      "detail": "Mobile games, networking, shaders and optimization."
+    },
+    {
+      "role": "Unity Developer",
+      "company": "Next IT LTD.",
+      "detail": "Mini games, APIs, UI animations and performance."
+    },
+    {
+      "role": "Senior Game Developer",
+      "company": "Supertal Pte. Ltd.",
+      "detail": "Multiplayer, FSM-based NPCs, Firebase and PlayFab."
+    },
+    {
+      "role": "Senior Game Developer",
+      "company": "Royex Technologies",
+      "detail": "Metaverse systems, dedicated servers and WebGL."
+    },
+    {
+      "role": "Senior Unity Developer",
+      "company": "March Robotics And IT Solutions",
+      "detail": "VR simulations, interactions and database integration."
+    }
+  ]
+}

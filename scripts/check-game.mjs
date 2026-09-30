@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';
+import {Snake} from '../site/snake-engine.mjs';
+const game=new Snake(20,()=>0);
+game.status='running';game.food=[9,10];game.step();assert.equal(game.score,10);assert.equal(game.body.length,4);assert(!game.body.some(p=>p[0]===game.food[0]&&p[1]===game.food[1]));
+game.turn('left');game.step();assert.equal(game.direction,'right','Reverse direction must be rejected');
+game.turn('up');game.turn('left');game.step();assert.equal(game.direction,'up','Only one turn may be queued per tick');
+game.status='paused';const head=[...game.body[0]];game.step();assert.deepEqual(game.body[0],head);
+game.status='running';game.body=[[19,4],[18,4],[17,4]];game.direction='right';game.food=[0,0];game.step();assert.equal(game.status,'over');
+game.reset();game.status='running';game.body=[[3,3],[3,4],[2,4],[2,3]];game.direction='left';game.food=[0,0];game.step();assert.equal(game.status,'running','Moving into the vacating tail is legal');
+game.body=[[3,3],[3,4],[2,4],[2,3],[2,2]];game.direction='left';game.step();assert.equal(game.status,'over','Body collision ends the game');
+game.reset();assert.equal(game.score,0);assert.equal(game.status,'ready');console.log('Snake: eating, growth, food placement, turn queue, pause, wall/body collisions, tail and restart passed.');
