@@ -21,7 +21,7 @@ export function portfolio(p){
   for(const f of platforms){const b=make('button',f);b.setAttribute('aria-pressed',String(f==='All'));b.onclick=()=>{for(const n of $('#filters').children)n.setAttribute('aria-pressed',String(n===b));renderGames(f);};$('#filters').append(b);}renderGames('All');
   $('#socials').replaceChildren(anchor('GitHub ↗','https://github.com/'+p.username),anchor('LinkedIn ↗',p.linkedin),anchor('Google Play ↗',p.publisher));
   const bio=make('div',null,'identity');bio.append(picture(p.portrait,p.name+' portrait'),make('div',p.fullName+' / '+p.location));$('.hero-copy').prepend(bio);
-  const hero=$('.hero-art');hero.replaceChildren(picture(p.heroImage,'Against the Dawn gameplay environment'),make('div','GAMEPLAY / SYSTEMS / WORLDS','art-label'));hero.classList.add('hero-photographic');
+  const hero=$('.hero-art');hero.replaceChildren(picture(p.heroImage,p.heroImageAlt||p.name+' portrait'),make('div',p.heroImageLabel||'GAMEPLAY / SYSTEMS / WORLDS','art-label'));hero.classList.add('hero-photographic');hero.classList.toggle('hero-portrait',p.heroImage===p.portrait);
   const specialties=make('div',null,'specialties');for(const text of p.specialties)specialties.append(make('span',text));$('.hero').after(specialties);
   const cv=anchor('View current CV ↗',p.cvUrl);$('.actions').append(cv);
   let category='All',expanded=false;

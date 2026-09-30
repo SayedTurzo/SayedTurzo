@@ -677,7 +677,9 @@
     "Unity tools & optimization"
   ],
   "portrait": "assets/sources/portfolio/archive-00.webp",
-  "heroImage": "assets/sources/portfolio/archive-05.webp",
+  "heroImage": "assets/sources/portfolio/archive-00.webp",
+  "heroImageAlt": "Portrait of Sayed Turzo",
+  "heroImageLabel": "SAYED TURZO / GAME DEVELOPER",
   "archiveProjects": [
     {
       "title": "Against the Dawn — Revamped",
