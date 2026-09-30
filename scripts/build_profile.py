@@ -139,4 +139,14 @@ if __name__=='__main__':
         if not path.exists():path.write_text('<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90"><rect width="1200" height="90" rx="12" fill="#151922"/><text x="40" y="52" fill="#9299a6" font-family="sans-serif" font-size="18">Contribution snake appears after the first Profile refresh workflow run.</text></svg>',encoding='utf-8')
     (ROOT/'site'/'profile.json').write_text(json.dumps(P,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     shutil.copytree(ASSETS,ROOT/'site'/'assets',dirs_exist_ok=True)
+    # One immutable release keeps HTML, modules, styling and content in sync.
+    # Existing visitors may otherwise receive new HTML with cached old JS/JSON.
+    release_files=['app.js','portfolio.js','snake-engine.mjs','styles.css','profile.json']
+    revision=hashlib.sha256(b''.join((ROOT/'site'/name).read_bytes() for name in release_files)).hexdigest()[:16]
+    release=ROOT/'site'/'releases'/revision
+    release.mkdir(parents=True,exist_ok=True)
+    for name in release_files:shutil.copy2(ROOT/'site'/name,release/name)
+    template=(ROOT/'site'/'index.template.html').read_text(encoding='utf-8')
+    page=template.replace('href="styles.css"',f'href="releases/{revision}/styles.css"').replace('src="app.js"',f'src="releases/{revision}/app.js"')
+    (ROOT/'site'/'index.html').write_text(page,encoding='utf-8')
     print('Built README, animated GIF, game cards and site content.')

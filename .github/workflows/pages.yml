@@ -26,6 +26,7 @@ jobs:
           python-version: '3.12'
       - run: pip install Pillow==11.3.0
       - run: python scripts/build_profile.py
+      - run: python scripts/check_release.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

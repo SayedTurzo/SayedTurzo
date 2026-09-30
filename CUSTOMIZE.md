@@ -11,7 +11,7 @@ The root website is your primary portfolio. `portfolio` should point to `https:/
 - `archiveProjects`: `{ "title": "Project name", "description": "Short overview", "images": ["assets/sources/my-image.webp"] }`. Keep unavailable historical projects here with images or verified video IDs, without broken outbound URLs.
 - `experience`: company, role, `dates` and detail. `education`, `portrait`, `heroImage`, `specialties`, `phone` and `cvUrl` control the professional profile sections.
 
-Store new media inside `assets/sources/`. Rebuild, review locally and publish with the existing workflows. `PORTFOLIO_SOURCES.md` documents provenance and import limitations; `portfolio-evidence.json` preserves original source media and titles. Import scripts use BeautifulSoup and Pillow and run explicitly, not as part of the regular build. Review imported content before replacing curated `profile.json`.
+Store new media inside `assets/sources/`. Edit page markup in `site/index.template.html`; `site/index.html` is generated. Rebuild, review locally and publish with the existing workflows. The builder publishes CSS, JavaScript modules and JSON together under a content-hashed release directory, preventing cached files from different updates from mixing. Run `python scripts/check_release.py` to check this. `PORTFOLIO_SOURCES.md` documents provenance and import limitations; `portfolio-evidence.json` preserves original source media and titles. Import scripts use BeautifulSoup and Pillow and run explicitly, not as part of the regular build. Review imported content before replacing curated `profile.json`.
 
 ## Add a game
 

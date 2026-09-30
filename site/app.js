@@ -4,7 +4,7 @@ const $=s=>document.querySelector(s);
 const el=(tag,text,className)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;};
 function link(label,url){const a=el('a',label);a.href=url;return a;}
 async function loadProfile(){
-  const response=await fetch('./profile.json');if(!response.ok)throw new Error('Profile could not be loaded');const p=await response.json();
+  const response=await fetch(new URL('./profile.json',import.meta.url));if(!response.ok)throw new Error('Profile could not be loaded');const p=await response.json();
   for(const [key,value] of Object.entries(p.theme))document.documentElement.style.setProperty(key==='background'?'--bg':'--'+key,value);
   document.title=p.name+' / Game Developer';$('#bio').textContent=p.bio;$('#footer-name').textContent=p.name+' / Game Developer';
   const heading=$('h1');if(p.headline.endsWith('play.'))heading.replaceChildren(document.createTextNode(p.headline.slice(0,-5)),el('em','play.'));else heading.textContent=p.headline;
