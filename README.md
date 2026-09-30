@@ -1,80 +1,223 @@
-## Hi there 👋, I'm Sayed Turzo
+# 🎮 Hi, I'm Sayed Turzo
 
-🎮 Game Developer | 💻 Software Engineer | 🕹️ Passionate about creating engaging gaming experiences
+## Game Developer \| Software Engineer
 
-### About Me
-I'm a game developer with a passion for creating immersive and engaging experiences. I specialize in Unity and Unreal Engine and love exploring new technologies in game development. With extensive experience in multiplayer networking, metaverse projects, AR/VR, and game optimization, I continuously strive to innovate and improve my skills.
+Building immersive games, multiplayer systems, simulations and
+interactive experiences using Unity, Unreal Engine and modern
+technologies.
 
-- 🔭 I’m currently working on various Game and simulation projects
-- 🌱 I’m currently learning advanced multiplayer networking techniques
-- 👯 I’m looking to collaborate on innovative game development projects
-- 💬 Ask me about game development, Unity, Unreal Engine, and more!
-- 📫 How to reach me: abusayedbinabdullah@gmail.com
-- ⚡ Fun fact: I love experimenting with game mechanics and creating unique gameplay experiences.
+------------------------------------------------------------------------
 
+# 👋 About Me
 
-### My Skills
-- 🎨 Game Design
-- 🖥️ Programming: C#, C++, Python
-- 🌐 Web Development: HTML, CSS, JavaScript
-- 🎵 Sound Design
-- 🛠️ Tools: Unity, Unreal Engine, Photon, Fishnet, Mirror, WebRTC, Firebase, Playfab, Amazon AWS
+I'm a Game Developer and Software Engineer focused on creating engaging
+interactive experiences.
 
-### Most Used Languages
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SayedTurzo&layout=compact)](https://github.com/SayedTurzo/github-readme-stats)
+My work involves:
 
-### Experience
+-   🎮 Game Development
+-   🌐 Multiplayer Networking
+-   🌎 Metaverse Experiences
+-   🥽 VR Simulation Systems
+-   ⚡ Game Optimization
+-   🧩 Real-time Interactive Applications
 
-**Game Developer**  
-*MediEvil Studio* (03/2020 – present)  
-- Created multiple hyper-casual games
-- Gained extensive knowledge on multiplayer networking systems
-- Worked on metaverse projects
-- Developed Unity Shaders
+I enjoy transforming ideas into playable experiences and solving complex
+technical challenges behind games.
 
-**Unity Developer**  
-*Next IT LTD.* (11/2023 – Present)  
-- Developed interactive mini games
-- Handled APIs and UI animations
-- Optimized game performance and touch input handling
+------------------------------------------------------------------------
 
-**Senior Game Developer**  
-*Supertal Pte. Ltd.* (03/2023 – 10/2023)  
-- Implemented multiplayer networking and API handling
-- Developed FSM-based NPCs with dynamic interactions
-- Optimized games and integrated Firebase/Playfab
+# 🎮 Developer Profile
 
-**Senior Game Developer**  
-*Royex Technologies* (08/2022 – 12/2022)  
-- Worked on metaverse multiplayer networking
-- Implemented animation blend trees and finite state machines
-- Managed dedicated game servers on Amazon AWS
-- Developed multiplayer WebGL projects
+    ╔════════════════════════════════╗
+    ║          SAYED.EXE             ║
+    ╠════════════════════════════════╣
+    ║ Role     : Game Developer      ║
+    ║ Engine   : Unity / Unreal      ║
+    ║                              ║
+    ║ C#              ██████████ 90% ║
+    ║ Unity           █████████░ 90% ║
+    ║ Multiplayer     ████████░░ 85% ║
+    ║ VR Development  ███████░░░ 75% ║
+    ║ Unreal Engine   ███████░░░ 75% ║
+    ╚════════════════════════════════╝
 
-**Senior Unity Developer**  
-*March Robotics And IT Solutions* (03/2022 – 08/2022)  
-- Developed various VR simulation projects
-- Implemented VR systems and managed databases
+------------------------------------------------------------------------
 
-### Projects
-Here are some of the projects I've worked on:
+# 🛠️ Technical Skills
 
-1. **[Met City](https://metcity.xyz/)** - Metaverse project for Royex Technologies
-2. **[E-Gold City](https://metaverse.egold.farm/)** - Metaverse project
-3. **[Nanoverse](https://nanoverse.io/)** - Metaverse project
-4. **[Spaceholic!](https://play.google.com/store/apps/details?id=com.medievilstudio.spaceholic)** - A space-themed game
-5. **[Burgerology](https://play.google.com/store/apps/details?id=com.medievil.burgerology)** - A fun cooking game
-6. **[Shark Attack](https://play.google.com/store/apps/details?id=com.fpg.sharkattack)** - An action-packed shark game
-7. **[War Troops 1917 - Trench Warfare Army Games](https://play.google.com/store/apps/details?id=com.wartroops1917.trench.warfare)** - A trench warfare game
-8. **[Pop it Game - Relaxing Games](https://play.google.com/store/apps/details?id=com.hd.fidgettrading.popit.fidgettoys.calminggame)** - A relaxing fidget toy game
-9. **[Against The Dawn](https://medievilstudio.itch.io/against-the-dawn-3d-webgl)** - A WebGL game
-10. **[Jurassic Sniper 3D](https://play.google.com/store/apps/details?id=com.funvai.jseasniper&hl=en&gl=USl)** - A dinosaur-themed sniper game
+## 🎮 Game Engines
 
-### Connect with Me
-- [Portfolio](https://sites.google.com/view/sayedturzo/)
-- [LinkedIn](https://www.linkedin.com/in/sayedturzo/)
-- [GitHub](https://github.com/SayedTurzo)
+-   Unity
+-   Unreal Engine
 
----
+## 💻 Programming
 
-Feel free to reach out if you have any questions or if you're interested in collaborating on a project!
+-   C#
+-   C++
+-   Python
+
+## 🌐 Multiplayer & Backend
+
+-   Photon
+-   FishNet
+-   Mirror Networking
+-   WebRTC
+-   Firebase
+-   PlayFab
+-   Amazon AWS
+
+## 🎨 Other Tools
+
+-   Blender
+-   Git
+-   Figma
+-   Adobe Tools
+-   HTML
+-   CSS
+-   JavaScript
+
+------------------------------------------------------------------------
+
+# 🚀 Featured Projects
+
+## 🌆 Met City
+
+Multiplayer Metaverse Platform
+
+Technologies: `Unity` `WebGL` `Multiplayer Networking` `AWS`
+
+-   Developed interactive multiplayer environments
+-   Worked on virtual world systems
+-   Implemented real-time interactions
+
+https://metcity.xyz/
+
+------------------------------------------------------------------------
+
+## 🏙️ E-Gold City
+
+Virtual Metaverse Experience
+
+Technologies: `Unity` `Metaverse Systems` `Interactive World Design`
+
+https://metaverse.egold.farm/
+
+------------------------------------------------------------------------
+
+## 🌌 Nanoverse
+
+Digital Virtual World Project
+
+Technologies: `Unity` `Metaverse` `Interactive Systems`
+
+https://nanoverse.io/
+
+------------------------------------------------------------------------
+
+# 🎮 Published Games
+
+## 🚀 Spaceholic!
+
+https://play.google.com/store/apps/details?id=com.medievilstudio.spaceholic
+
+## 🍔 Burgerology
+
+https://play.google.com/store/apps/details?id=com.medievil.burgerology
+
+## 🦈 Shark Attack
+
+https://play.google.com/store/apps/details?id=com.fpg.sharkattack
+
+## ⚔ War Troops 1917
+
+https://play.google.com/store/apps/details?id=com.wartroops1917.trench.warfare
+
+## 🌅 Against The Dawn
+
+https://medievilstudio.itch.io/against-the-dawn-3d-webgl
+
+------------------------------------------------------------------------
+
+# 💼 Professional Experience
+
+## 🎮 Game Developer --- MediEvil Studio
+
+**2020 - Present**
+
+-   Developed multiple mobile games
+-   Worked on multiplayer networking systems
+-   Built metaverse-related experiences
+-   Developed Unity shaders and optimization solutions
+
+## 🎮 Unity Developer --- Next IT LTD.
+
+**2023 - Present**
+
+-   Developed interactive mini games
+-   Implemented APIs and UI animations
+-   Improved gameplay performance
+
+## 🎮 Senior Game Developer --- Supertal Pte. Ltd.
+
+-   Multiplayer networking features
+-   FSM-based NPC systems
+-   Firebase and PlayFab integration
+
+## 🎮 Senior Game Developer --- Royex Technologies
+
+-   Multiplayer metaverse systems
+-   Dedicated game servers
+-   WebGL multiplayer projects
+
+## 🥽 Senior Unity Developer --- March Robotics And IT Solutions
+
+-   VR simulation projects
+-   VR interaction systems
+-   Database integration
+
+------------------------------------------------------------------------
+
+# 🧠 Currently Exploring
+
+-   Advanced Multiplayer Architecture
+-   Real-time Networking
+-   Unreal Engine Development
+-   Immersive Simulation Technologies
+-   Game Performance Optimization
+
+------------------------------------------------------------------------
+
+# 📊 GitHub Statistics
+
+![GitHub
+Stats](https://github-readme-stats.vercel.app/api?username=SayedTurzo&show_icons=true&theme=tokyonight)
+
+![Top
+Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SayedTurzo&layout=compact&theme=tokyonight)
+
+------------------------------------------------------------------------
+
+# 🎮 Interactive Zone
+
+    ╔══════════════════════════════╗
+    ║        MINI GAMES            ║
+    ╠══════════════════════════════╣
+    ║ 🚀 Space Dodge               ║
+    ║ 🧩 Code Challenge             ║
+    ║ ⚔ Developer RPG              ║
+    ║                              ║
+    ║        Coming Soon...        ║
+    ╚══════════════════════════════╝
+
+------------------------------------------------------------------------
+
+# 🤝 Let's Connect
+
+Portfolio: https://sites.google.com/view/sayedturzo/
+
+LinkedIn: https://www.linkedin.com/in/sayedturzo/
+
+GitHub: https://github.com/SayedTurzo
+
+Email: abusayedbinabdullah@gmail.com
