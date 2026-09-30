@@ -8,7 +8,10 @@ async function loadProfile(){
   document.title=p.name+' / Game Developer';$('#bio').textContent=p.bio;$('#footer-name').textContent=p.name+' / Game Developer';
   const heading=$('h1');if(p.headline.endsWith('play.'))heading.replaceChildren(document.createTextNode(p.headline.slice(0,-5)),el('em','play.'));else heading.textContent=p.headline;
   $('#email').href='mailto:'+p.email;$('#socials').append(link('Portfolio ↗',p.portfolio),link('LinkedIn ↗',p.linkedin),link('GitHub ↗','https://github.com/'+p.username));
-  const filters=['All',...new Set(p.games.map(g=>g.platform))];
+  const platforms=[...new Set(p.games.map(g=>g.platform))];
+  const filters=['All',...platforms];$('#filters').hidden=platforms.length<2;
+  $('#games').classList.toggle('game-grid--compact',p.games.length<=2);
+  $('#worlds').hidden=p.worlds.length===0;
   function renderGames(filter){$('#games').replaceChildren();for(const g of p.games.filter(g=>filter==='All'||g.platform===filter)){const a=link('',g.url);a.className='game-card';const image=el('img');image.src=g.coverImage?'./'+g.coverImage:'./assets/'+g.id+'.png';image.alt='';image.loading='lazy';const copy=el('div',undefined,'copy'),top=el('div',undefined,'card-top');top.append(el('span',g.platform.toUpperCase()),el('span','↗'));copy.append(top,el('h3',g.title),el('p',g.description));a.append(image,copy);$('#games').append(a);}}
   for(const f of filters){const b=el('button',f);b.type='button';b.setAttribute('aria-pressed',String(f==='All'));b.onclick=()=>{for(const button of $('#filters').children)button.setAttribute('aria-pressed',String(button===b));renderGames(f);};$('#filters').append(b);}renderGames('All');
   for(const w of p.worlds){const a=link('',w.url);a.append(el('strong',w.title+' ↗'),el('p',w.description));$('#worlds').append(a);}

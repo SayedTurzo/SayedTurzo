@@ -76,65 +76,9 @@
       "symbol": "02",
       "featured": true,
       "coverImage": "assets/sources/disgusting.png"
-    },
-    {
-      "id": "spaceholic",
-      "title": "Spaceholic!",
-      "platform": "Mobile",
-      "description": "Space-themed mobile game.",
-      "url": "https://play.google.com/store/apps/details?id=com.medievilstudio.spaceholic",
-      "accent": "#72dcff",
-      "symbol": "03",
-      "featured": false
-    },
-    {
-      "id": "burgerology",
-      "title": "Burgerology",
-      "platform": "Mobile",
-      "description": "A cooking game for mobile.",
-      "url": "https://play.google.com/store/apps/details?id=com.medievil.burgerology",
-      "accent": "#ffb579",
-      "symbol": "04",
-      "featured": false
-    },
-    {
-      "id": "shark-attack",
-      "title": "Shark Attack",
-      "platform": "Mobile",
-      "description": "An action-packed shark game.",
-      "url": "https://play.google.com/store/apps/details?id=com.fpg.sharkattack",
-      "accent": "#72dcff",
-      "symbol": "05",
-      "featured": false
-    },
-    {
-      "id": "war-troops",
-      "title": "War Troops 1917",
-      "platform": "Mobile",
-      "description": "Trench warfare for mobile.",
-      "url": "https://play.google.com/store/apps/details?id=com.wartroops1917.trench.warfare",
-      "accent": "#ffb579",
-      "symbol": "06",
-      "featured": false
     }
   ],
-  "worlds": [
-    {
-      "title": "Met City",
-      "description": "Unity · WebGL · Multiplayer · AWS",
-      "url": "https://metcity.xyz/"
-    },
-    {
-      "title": "E-Gold City",
-      "description": "Unity · Metaverse · Interactive worlds",
-      "url": "https://metaverse.egold.farm/"
-    },
-    {
-      "title": "Nanoverse",
-      "description": "Unity · Virtual worlds · Interactive systems",
-      "url": "https://nanoverse.io/"
-    }
-  ],
+  "worlds": [],
   "experience": [
     {
       "role": "Game Developer",

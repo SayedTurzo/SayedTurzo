@@ -117,9 +117,11 @@ def readme():
         for g in featured[i:i+2]:cards.append(f'<a href="{html.escape(g["url"],quote=True)}"><img src="{asset(g["id"]+".png")}" alt="{html.escape(g["title"])} — {html.escape(g["platform"])}. Visit game." width="49%"></a>')
         out.append('<p>'+ '\n'.join(cards)+'</p>')
     more=[g for g in P['games'] if not g.get('featured')]
-    out.append('<p><strong>More mobile games</strong><br><br>'+ ' &nbsp; · &nbsp; '.join(a(g['title']+' ↗',g['url']) for g in more)+'</p>')
-    out+=['## What I build with','<img src="'+asset('toolkit.png')+'" alt="'+html.escape('; '.join(s['category']+': '+', '.join(s['items']) for s in P['skills']))+'" width="100%">','## Multiplayer worlds & immersive experiences']
-    out.append('<p>'+ '\n'.join(f'<a href="{html.escape(w["url"],quote=True)}"><img src="{asset(f"world-{index}.png")}" alt="{html.escape(w["title"]+": "+w["description"])}. Visit world." width="32%"></a>' for index,w in enumerate(P['worlds']))+'</p>')
+    if more:out.append('<p><strong>More games</strong><br><br>'+ ' &nbsp; · &nbsp; '.join(a(g['title']+' ↗',g['url']) for g in more)+'</p>')
+    out+=['## What I build with','<img src="'+asset('toolkit.png')+'" alt="'+html.escape('; '.join(s['category']+': '+', '.join(s['items']) for s in P['skills']))+'" width="100%">']
+    if P['worlds']:
+        out+=['## Multiplayer worlds & immersive experiences']
+        out.append('<p>'+ '\n'.join(f'<a href="{html.escape(w["url"],quote=True)}"><img src="{asset(f"world-{index}.png")}" alt="{html.escape(w["title"]+": "+w["description"])}. Visit world." width="32%"></a>' for index,w in enumerate(P['worlds']))+'</p>')
     if live:out+=['## Your turn to play',f'**[Play Neon Snake →]({P["siteUrl"]}#arcade)** · Keyboard, swipe, mobile controls, and your personal best.']
     else:out+=['## Neon Snake', 'The browser game is built. Public access will appear here after GitHub Pages deployment is verified. [Deployment setup →](CUSTOMIZE.md#make-it-live-on-github)']
     out+=['## Contribution trail','<picture><source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg"><img src="assets/contributions.svg" alt="GitHub contribution snake animation" width="100%"></picture>',f'<p align="center">{a("Portfolio",P["portfolio"])} · {a("LinkedIn",P["linkedin"])} · {a("Email","mailto:"+P["email"])}</p>']
