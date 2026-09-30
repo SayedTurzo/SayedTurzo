@@ -6,7 +6,7 @@
 
 <p align="center">Game developer working across Unity, Unreal Engine and Roblox. Gameplay, multiplayer worlds, VR simulations — and the systems that bring them to life.</p>
 
-<p align="center"><a href="https://sayedturzo.github.io/SayedTurzo/#arcade">▶ PLAY NEON SNAKE</a> &nbsp; / &nbsp; <a href="mailto:abusayedbinabdullah@gmail.com">LET’S TALK ↗</a></p>
+<p align="center"><a href="https://sayedturzo.github.io/#arcade">▶ PLAY NEON SNAKE</a> &nbsp; / &nbsp; <a href="mailto:abusayedbinabdullah@gmail.com">LET’S TALK ↗</a></p>
 
 ## Games I’ve worked on
 
@@ -27,7 +27,7 @@
 
 ## Your turn to play
 
-**[Play Neon Snake →](https://sayedturzo.github.io/SayedTurzo/#arcade)** · Keyboard, swipe, mobile controls, and your personal best.
+**[Play Neon Snake →](https://sayedturzo.github.io/#arcade)** · Keyboard, swipe, mobile controls, and your personal best.
 
 ## Contribution trail
 

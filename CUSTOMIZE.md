@@ -33,9 +33,13 @@ Validate game rules with `node scripts/check-game.mjs`. Optional browser checks 
 
 ## Make it live on GitHub
 
+The main public portfolio is published at `https://sayedturzo.github.io/` through the separate [SayedTurzo.github.io repository](https://github.com/SayedTurzo/SayedTurzo.github.io). Its **Publish root portfolio** workflow builds this repository's latest source. It checks hourly; for an immediate update after editing this repository, run that workflow manually. Keep all content and design edits in this repository.
+
+The project-site copy is published at `https://sayedturzo.github.io/SayedTurzo/`. Its deployment setup is:
+
 1. Push the changes to `main`.
 2. In repository **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source.
-3. Run **Publish playable portfolio** in Actions if it has not run automatically. The expected URL is `https://sayedturzo.github.io/SayedTurzo/`; update `siteUrl` if the deployed URL differs.
+3. Run **Publish playable portfolio** in Actions if it has not run automatically. The project-site URL is `https://sayedturzo.github.io/SayedTurzo/`; `siteUrl` points README play links to the main root-domain portfolio.
 4. Run **Profile refresh** once to generate the real contribution snake. It then refreshes daily. It needs repository Contents write permission; branch protection may require a different publishing strategy.
 
 The Pages workflow verifies the deployed page, then sets `sitePublished: true` and regenerates the README to activate its Play links. Keep that flag false until deployment is verified; false shows setup information instead of a broken public game link. The workflows share a concurrency group to prevent overlapping generated-content commits. The contribution snake has a labelled first-run placeholder until Profile refresh runs. The animation uses [Platane/snk](https://github.com/Platane/snk); it is separate from the visitor's playable Snake game. Private activity visibility follows GitHub's profile settings.
