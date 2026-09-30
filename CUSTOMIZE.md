@@ -24,6 +24,7 @@ For real game artwork, save an image inside the repo and add `coverImage`, for e
 - Edit `bio`, `headline`, contacts, `skills`, `experience`, or `worlds` in `profile.json`.
 - Edit `theme.accent`, `theme.secondary`, and `theme.background` for your colours.
 - Edit `site/styles.css` for layout and motion, `scripts/build_profile.py` for the GIF and README layout.
+- Set `heroEffect` to `"glitch"` for the animated portrait or `"none"` for the clean image. The effect pauses offscreen and respects reduced-motion preferences; timing and scanline strength are in the portrait rules at the end of `site/styles.css`.
 - The GIF uses original procedural animation. Regeneration produces a 48-frame loop with your current name and headline.
 
 Rebuild locally with Python and Pillow:

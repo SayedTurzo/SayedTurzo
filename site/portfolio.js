@@ -22,6 +22,18 @@ export function portfolio(p){
   $('#socials').replaceChildren(anchor('GitHub ↗','https://github.com/'+p.username),anchor('LinkedIn ↗',p.linkedin),anchor('Google Play ↗',p.publisher));
   const bio=make('div',null,'identity');bio.append(picture(p.portrait,p.name+' portrait'),make('div',p.fullName+' / '+p.location));$('.hero-copy').prepend(bio);
   const hero=$('.hero-art');hero.replaceChildren(picture(p.heroImage,p.heroImageAlt||p.name+' portrait'),make('div',p.heroImageLabel||'GAMEPLAY / SYSTEMS / WORLDS','art-label'));hero.classList.add('hero-photographic');hero.classList.toggle('hero-portrait',p.heroImage===p.portrait);
+  hero.firstElementChild.loading='eager';
+  if(p.heroEffect==='glitch'){
+    hero.classList.add('hero-glitch');
+    for(const channel of ['warm','cool']){
+      const layer=picture(p.heroImage,'');layer.className='glitch-layer glitch-'+channel;
+      layer.setAttribute('aria-hidden','true');layer.loading='eager';hero.append(layer);
+    }
+    const scan=make('span',null,'portrait-scan');scan.setAttribute('aria-hidden','true');hero.append(scan);
+    // Pause decorative animation when the portrait leaves the viewport.
+    const visibility=new IntersectionObserver(entries=>hero.classList.toggle('signal-active',entries[0].isIntersecting));
+    visibility.observe(hero);
+  }
   const specialties=make('div',null,'specialties');for(const text of p.specialties)specialties.append(make('span',text));$('.hero').after(specialties);
   const cv=anchor('View current CV ↗',p.cvUrl);$('.actions').append(cv);
   let category='All',expanded=false;

@@ -679,6 +679,7 @@
   ],
   "portrait": "assets/sources/portfolio/archive-00.webp",
   "heroImage": "assets/sources/portfolio/archive-00.webp",
+  "heroEffect": "glitch",
   "heroImageAlt": "Portrait of Sayed Turzo",
   "heroImageLabel": "SAYED TURZO / GAME DEVELOPER",
   "archiveProjects": [
