@@ -2,6 +2,7 @@ import {Snake} from './snake-engine.mjs';
 import {portfolio} from './portfolio.js';
 const $=s=>document.querySelector(s);
 const el=(tag,text,className)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(className)n.className=className;return n;};
+let arcadeTheme={accent:'#ffd600',secondary:'#ffbd24',background:'#080808'};
 function link(label,url){const a=el('a',label);a.href=url;return a;}
 async function loadProfile(){
   const response=await fetch(new URL('./profile.json',import.meta.url));if(!response.ok)throw new Error('Profile could not be loaded');const p=await response.json();
@@ -10,13 +11,13 @@ async function loadProfile(){
   const heading=$('h1');if(p.headline.endsWith('play.'))heading.replaceChildren(document.createTextNode(p.headline.slice(0,-5)),el('em','play.'));else heading.textContent=p.headline;
   $('#email').href='mailto:'+p.email;
   for(const s of p.skills){const card=el('article',undefined,'skill-card'),items=el('p');for(const item of s.items)items.append(el('span',item));card.append(el('h3',s.category),items);$('#skills').append(card);}
-  portfolio(p);
+  arcadeTheme=p.theme;portfolio(p);draw();
 }
 loadProfile().catch(error=>{$('#bio').textContent='Unable to load profile data. Please refresh the page.';console.error(error);});
 const canvas=$('#snake'),ctx=canvas.getContext('2d'),game=new Snake();let last=0,best=0;
 try{best=Number(localStorage.getItem('st-neon-snake-best'))||0;}catch{}
 function refresh(){const status={ready:'READY',running:'PLAYING',paused:'PAUSED',over:'GAME OVER',won:'YOU WIN'};$('#score').textContent=String(game.score).padStart(3,'0');$('#best').textContent=String(best).padStart(3,'0');$('#game-state').textContent=status[game.status];$('#pause').disabled=!['running','paused'].includes(game.status);$('#pause').textContent=game.status==='paused'?'Resume':'Pause';$('#start').textContent=game.status==='ready'?'Start game ↗':'Restart ↗';}
-function draw(){ctx.fillStyle='#0b0f14';ctx.fillRect(0,0,600,600);ctx.strokeStyle='#18212b';ctx.lineWidth=1;for(let i=0;i<=20;i++){ctx.beginPath();ctx.moveTo(i*30,0);ctx.lineTo(i*30,600);ctx.moveTo(0,i*30);ctx.lineTo(600,i*30);ctx.stroke();}if(game.food){ctx.fillStyle='#c5ff61';ctx.shadowColor='#c5ff61';ctx.shadowBlur=18;ctx.beginPath();ctx.arc(game.food[0]*30+15,game.food[1]*30+15,8,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;}game.body.forEach((p,i)=>{ctx.fillStyle=i===0?'#e6ffb5':'#a99cff';ctx.beginPath();ctx.roundRect(p[0]*30+3,p[1]*30+3,24,24,6);ctx.fill();});if(game.status!=='running'){ctx.fillStyle='#0b0f14bb';ctx.fillRect(0,0,600,600);ctx.textAlign='center';ctx.fillStyle='#f2f3ed';ctx.font='bold 36px sans-serif';ctx.fillText({ready:'NEON SNAKE',paused:'TAKE A BREATHER',over:'ONE MORE RUN?',won:'GRID COMPLETE'}[game.status],300,285);ctx.font='16px sans-serif';ctx.fillStyle='#a5adba';ctx.fillText(game.status==='paused'?'Press Space or Resume':'Hit '+(game.status==='ready'?'Start':'Restart')+' to play',300,323);}}
+function draw(){ctx.fillStyle=arcadeTheme.background;ctx.fillRect(0,0,600,600);ctx.strokeStyle='#242424';ctx.lineWidth=1;for(let i=0;i<=20;i++){ctx.beginPath();ctx.moveTo(i*30,0);ctx.lineTo(i*30,600);ctx.moveTo(0,i*30);ctx.lineTo(600,i*30);ctx.stroke();}if(game.food){ctx.fillStyle=arcadeTheme.accent;ctx.shadowColor=arcadeTheme.accent;ctx.shadowBlur=18;ctx.beginPath();ctx.arc(game.food[0]*30+15,game.food[1]*30+15,8,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;}game.body.forEach((p,i)=>{ctx.fillStyle=i===0?arcadeTheme.accent:arcadeTheme.secondary;ctx.beginPath();ctx.roundRect(p[0]*30+3,p[1]*30+3,24,24,6);ctx.fill();});if(game.status!=='running'){ctx.fillStyle=arcadeTheme.background+'bb';ctx.fillRect(0,0,600,600);ctx.textAlign='center';ctx.fillStyle='#f2f3ed';ctx.font='bold 36px sans-serif';ctx.fillText({ready:'NEON SNAKE',paused:'TAKE A BREATHER',over:'ONE MORE RUN?',won:'GRID COMPLETE'}[game.status],300,285);ctx.font='16px sans-serif';ctx.fillStyle='#a5adba';ctx.fillText(game.status==='paused'?'Press Space or Resume':'Hit '+(game.status==='ready'?'Start':'Restart')+' to play',300,323);}}
 function start(){game.reset();game.status='running';last=performance.now();canvas.focus({preventScroll:true});refresh();draw();}
 function pause(){if(game.status==='running')game.status='paused';else if(game.status==='paused'){game.status='running';last=performance.now();}refresh();draw();}
 $('#start').onclick=start;$('#pause').onclick=pause;

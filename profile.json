@@ -8,9 +8,9 @@
   "portfolio": "https://sayedturzo.github.io/",
   "linkedin": "https://www.linkedin.com/in/sayedturzo/",
   "theme": {
-    "accent": "#c5ff61",
-    "secondary": "#a99cff",
-    "background": "#0b0d12"
+    "accent": "#ffd600",
+    "secondary": "#ffbd24",
+    "background": "#080808"
   },
   "skills": [
     {
@@ -90,7 +90,7 @@
       "platform": "Roblox",
       "description": "A Roblox experience I worked on.",
       "url": "https://www.roblox.com/games/126295191500786/Clean-a-Crime",
-      "accent": "#c5ff61",
+      "accent": "#ffd600",
       "symbol": "01",
       "featured": true,
       "coverImage": "assets/sources/clean-a-crime.png"
@@ -101,7 +101,7 @@
       "platform": "Roblox",
       "description": "A Roblox experience I worked on.",
       "url": "https://www.roblox.com/games/81057871278887/OMG-This-Place-Is-DISGUSTING",
-      "accent": "#a99cff",
+      "accent": "#ffbd24",
       "symbol": "02",
       "featured": true,
       "coverImage": "assets/sources/disgusting.png"
@@ -119,7 +119,7 @@
       "youtubeId": "CEndcRLKA_Q",
       "platform": "Android",
       "description": "A mobile run-and-gun shooter with enemy waves, weapon upgrades and one-touch controls.",
-      "accent": "#c5ff61",
+      "accent": "#ffd600",
       "symbol": "03",
       "featured": true,
       "coverImage": "assets/sources/portfolio/archive-01.webp",
@@ -141,7 +141,7 @@
       "youtubeId": "yUJraXWDppw",
       "platform": "Android",
       "description": "A colour-sorting puzzle built around simple touch controls and increasingly challenging bottle puzzles.",
-      "accent": "#a99cff",
+      "accent": "#ffbd24",
       "symbol": "04",
       "featured": true,
       "coverImage": "assets/sources/portfolio/archive-02.webp",
@@ -164,7 +164,7 @@
       "youtubeId": "657S3ZOD-nA",
       "platform": "Android",
       "description": "An arcade driving challenge: steer two cars at once, dodge obstacles and collect power-ups.",
-      "accent": "#c5ff61",
+      "accent": "#ffd600",
       "symbol": "05",
       "featured": false,
       "coverImage": "assets/sources/portfolio/archive-03.webp",
@@ -185,7 +185,7 @@
       "youtubeId": "657S3ZOD-nA",
       "platform": "Android",
       "description": "A traffic puzzle about managing buses and passengers at busy city stops.",
-      "accent": "#a99cff",
+      "accent": "#ffbd24",
       "symbol": "06",
       "featured": false,
       "coverImage": "assets/sources/portfolio/archive-04.webp",
