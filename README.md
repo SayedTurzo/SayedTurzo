@@ -6,7 +6,7 @@
 
 <p align="center">Game developer working across Unity, Unreal Engine and Roblox. Gameplay, multiplayer worlds, VR simulations — and the systems that bring them to life.</p>
 
-<p align="center"><a href="https://sites.google.com/view/sayedturzo/">PORTFOLIO ↗</a> &nbsp; / &nbsp; <a href="mailto:abusayedbinabdullah@gmail.com">LET’S TALK ↗</a></p>
+<p align="center"><a href="https://sayedturzo.github.io/SayedTurzo/#arcade">▶ PLAY NEON SNAKE</a> &nbsp; / &nbsp; <a href="mailto:abusayedbinabdullah@gmail.com">LET’S TALK ↗</a></p>
 
 ## Games I’ve worked on
 
@@ -25,9 +25,9 @@
 <a href="https://metaverse.egold.farm/"><img src="assets/world-1.png" alt="E-Gold City: Unity · Metaverse · Interactive worlds. Visit world." width="32%"></a>
 <a href="https://nanoverse.io/"><img src="assets/world-2.png" alt="Nanoverse: Unity · Virtual worlds · Interactive systems. Visit world." width="32%"></a></p>
 
-## Neon Snake
+## Your turn to play
 
-The browser game is built. Public access will appear here after GitHub Pages deployment is verified. [Deployment setup →](CUSTOMIZE.md#make-it-live-on-github)
+**[Play Neon Snake →](https://sayedturzo.github.io/SayedTurzo/#arcade)** · Keyboard, swipe, mobile controls, and your personal best.
 
 ## Contribution trail
 
