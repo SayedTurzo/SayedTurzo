@@ -40,7 +40,7 @@ jobs:
           python scripts/build_profile.py
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add profile.json site/profile.json README.md assets
+          git add profile.json site/profile.json site/index.html README.md assets
           if ! git diff --cached --quiet; then
             git commit -m 'Activate verified playable portfolio links'
             git pull --rebase origin main

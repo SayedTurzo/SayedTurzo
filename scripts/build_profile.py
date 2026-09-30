@@ -142,10 +142,11 @@ if __name__=='__main__':
     # One immutable release keeps HTML, modules, styling and content in sync.
     # Existing visitors may otherwise receive new HTML with cached old JS/JSON.
     release_files=['app.js','portfolio.js','snake-engine.mjs','styles.css','profile.json']
-    revision=hashlib.sha256(b''.join((ROOT/'site'/name).read_bytes() for name in release_files)).hexdigest()[:16]
+    release_content={name:(ROOT/'site'/name).read_text(encoding='utf-8').encode('utf-8') for name in release_files}
+    revision=hashlib.sha256(b''.join(release_content.values())).hexdigest()[:16]
     release=ROOT/'site'/'releases'/revision
     release.mkdir(parents=True,exist_ok=True)
-    for name in release_files:shutil.copy2(ROOT/'site'/name,release/name)
+    for name,data in release_content.items():(release/name).write_bytes(data)
     template=(ROOT/'site'/'index.template.html').read_text(encoding='utf-8')
     page=template.replace('href="styles.css"',f'href="releases/{revision}/styles.css"').replace('src="app.js"',f'src="releases/{revision}/app.js"')
     (ROOT/'site'/'index.html').write_text(page,encoding='utf-8')

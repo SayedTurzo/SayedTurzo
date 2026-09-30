@@ -8,7 +8,7 @@ styles=re.findall(r'href="(releases/([a-f0-9]{16})/styles.css)"',page)
 assert len(scripts)==len(styles)==1,'HTML must reference versioned JS and CSS'
 assert scripts[0][1]==styles[0][1],'JS and CSS must belong to one release'
 files=['app.js','portfolio.js','snake-engine.mjs','styles.css','profile.json']
-contents=[(root/name).read_bytes() for name in files]
+contents=[(root/name).read_text(encoding='utf-8').encode('utf-8') for name in files]
 revision=hashlib.sha256(b''.join(contents)).hexdigest()[:16]
 assert scripts[0][1]==revision,'HTML release must match current content'
 release=root/'releases'/revision
