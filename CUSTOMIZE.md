@@ -4,9 +4,9 @@
 
 ## Add a game
 
-Copy an entry in `games`. Give it a unique, lowercase, hyphenated `id`, a `title`, `platform`, `description`, `url`, `accent` and `symbol`. Set `featured: true` to put it in the README showcase. Keep three featured games for a balanced row. All games appear on the companion site and filter automatically by platform.
+Copy an entry in `games`. Give it a unique, lowercase, hyphenated `id`, a `title`, `platform`, `description`, `url` and `accent`. Set `featured: true` to put it in the README showcase. Featured games are arranged in pairs. All games appear on the companion site and filter automatically by platform.
 
-The current covers are original abstract title cards, not screenshots of the games. To use real screenshots, change the cover generator or replace generated covers and stop regenerating those covers in `scripts/build_profile.py`.
+For real game artwork, save an image inside the repo and add `coverImage`, for example `"coverImage": "assets/sources/my-game.png"`. The generator creates the framed README card and the site uses the original artwork. The two Roblox games use public thumbnails fetched from Roblox. Other games use title cards. Refresh Roblox thumbnails with `python scripts/fetch_roblox_covers.py` when you want to (requires internet access).
 
 ## Change your information or style
 
@@ -38,6 +38,6 @@ Validate game rules with `node scripts/check-game.mjs`. Optional browser checks 
 3. Run **Publish playable portfolio** in Actions if it has not run automatically. The expected URL is `https://sayedturzo.github.io/SayedTurzo/`; update `siteUrl` if the deployed URL differs.
 4. Run **Profile refresh** once to generate the real contribution snake. It then refreshes daily. It needs repository Contents write permission; branch protection may require a different publishing strategy.
 
-Until those workflows run successfully, the playable link is not live and the snake has a clearly labelled first-run placeholder. The contribution animation uses [Platane/snk](https://github.com/Platane/snk); it is an animation of GitHub activity, separate from the visitor's playable Snake game. Private activity visibility follows GitHub's profile settings.
+The Pages workflow verifies the deployed page, then sets `sitePublished: true` and regenerates the README to activate its Play links. Keep that flag false until deployment is verified; false shows setup information instead of a broken public game link. The workflows share a concurrency group to prevent overlapping generated-content commits. The contribution snake has a labelled first-run placeholder until Profile refresh runs. The animation uses [Platane/snk](https://github.com/Platane/snk); it is separate from the visitor's playable Snake game. Private activity visibility follows GitHub's profile settings.
 
 README supports images and links; JavaScript games run on the companion GitHub Pages site. No build framework, API keys, tracking, or application backend is required.

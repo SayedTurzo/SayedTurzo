@@ -63,7 +63,8 @@
       "url": "https://www.roblox.com/games/126295191500786/Clean-a-Crime",
       "accent": "#c5ff61",
       "symbol": "01",
-      "featured": true
+      "featured": true,
+      "coverImage": "assets/sources/clean-a-crime.png"
     },
     {
       "id": "disgusting",
@@ -73,7 +74,8 @@
       "url": "https://www.roblox.com/games/81057871278887/OMG-This-Place-Is-DISGUSTING",
       "accent": "#a99cff",
       "symbol": "02",
-      "featured": true
+      "featured": true,
+      "coverImage": "assets/sources/disgusting.png"
     },
     {
       "id": "spaceholic",
@@ -83,7 +85,7 @@
       "url": "https://play.google.com/store/apps/details?id=com.medievilstudio.spaceholic",
       "accent": "#72dcff",
       "symbol": "03",
-      "featured": true
+      "featured": false
     },
     {
       "id": "burgerology",
@@ -92,7 +94,8 @@
       "description": "A cooking game for mobile.",
       "url": "https://play.google.com/store/apps/details?id=com.medievil.burgerology",
       "accent": "#ffb579",
-      "symbol": "04"
+      "symbol": "04",
+      "featured": false
     },
     {
       "id": "shark-attack",
@@ -101,7 +104,8 @@
       "description": "An action-packed shark game.",
       "url": "https://play.google.com/store/apps/details?id=com.fpg.sharkattack",
       "accent": "#72dcff",
-      "symbol": "05"
+      "symbol": "05",
+      "featured": false
     },
     {
       "id": "war-troops",
@@ -110,7 +114,8 @@
       "description": "Trench warfare for mobile.",
       "url": "https://play.google.com/store/apps/details?id=com.wartroops1917.trench.warfare",
       "accent": "#ffb579",
-      "symbol": "06"
+      "symbol": "06",
+      "featured": false
     }
   ],
   "worlds": [
@@ -156,5 +161,6 @@
       "company": "March Robotics And IT Solutions",
       "detail": "VR simulations, interactions and database integration."
     }
-  ]
+  ],
+  "sitePublished": false
 }

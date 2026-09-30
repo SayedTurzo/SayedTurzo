@@ -6,57 +6,28 @@
 
 <p align="center">Game developer working across Unity, Unreal Engine and Roblox. Gameplay, multiplayer worlds, VR simulations — and the systems that bring them to life.</p>
 
-<p align="center"><a href="https://sayedturzo.github.io/SayedTurzo/#arcade">▶ PLAY NEON SNAKE</a> &nbsp; / &nbsp; <a href="https://sayedturzo.github.io/SayedTurzo/">EXPLORE MY WORK ↗</a> &nbsp; / &nbsp; <a href="mailto:abusayedbinabdullah@gmail.com">LET’S TALK ↗</a></p>
+<p align="center"><a href="https://sites.google.com/view/sayedturzo/">PORTFOLIO ↗</a> &nbsp; / &nbsp; <a href="mailto:abusayedbinabdullah@gmail.com">LET’S TALK ↗</a></p>
 
-## Selected work
+## Games I’ve worked on
 
-Games I’ve worked on — Roblox worlds, mobile games, and interactive experiences.
+<p><a href="https://www.roblox.com/games/126295191500786/Clean-a-Crime"><img src="assets/clean-a-crime.png" alt="Clean a Crime — Roblox. Visit game." width="49%"></a>
+<a href="https://www.roblox.com/games/81057871278887/OMG-This-Place-Is-DISGUSTING"><img src="assets/disgusting.png" alt="OMG! This Place Is DISGUSTING — Roblox. Visit game." width="49%"></a></p>
 
-<table><tr>
+<p><strong>More mobile games</strong><br><br><a href="https://play.google.com/store/apps/details?id=com.medievilstudio.spaceholic">Spaceholic! ↗</a> &nbsp; · &nbsp; <a href="https://play.google.com/store/apps/details?id=com.medievil.burgerology">Burgerology ↗</a> &nbsp; · &nbsp; <a href="https://play.google.com/store/apps/details?id=com.fpg.sharkattack">Shark Attack ↗</a> &nbsp; · &nbsp; <a href="https://play.google.com/store/apps/details?id=com.wartroops1917.trench.warfare">War Troops 1917 ↗</a></p>
 
-<td width="33%" valign="top"><a href="https://www.roblox.com/games/126295191500786/Clean-a-Crime"><img src="assets/clean-a-crime.png" alt="Clean a Crime" width="100%"></a><br><sub>ROBLOX</sub><br><strong>Clean a Crime</strong><br><br><a href="https://www.roblox.com/games/126295191500786/Clean-a-Crime">Visit game ↗</a></td>
+## What I build with
 
-<td width="33%" valign="top"><a href="https://www.roblox.com/games/81057871278887/OMG-This-Place-Is-DISGUSTING"><img src="assets/disgusting.png" alt="OMG! This Place Is DISGUSTING" width="100%"></a><br><sub>ROBLOX</sub><br><strong>OMG! This Place Is DISGUSTING</strong><br><br><a href="https://www.roblox.com/games/81057871278887/OMG-This-Place-Is-DISGUSTING">Visit game ↗</a></td>
+<img src="assets/toolkit.png" alt="Engines &amp; platforms: Unity, Unreal Engine, Roblox; Code: C#, C++, Python, JavaScript; Multiplayer &amp; backend: Photon, FishNet, Mirror, WebRTC, Firebase, PlayFab, AWS; Creative &amp; workflow: Blender, Figma, Git, Shaders, VR, Optimization" width="100%">
 
-<td width="33%" valign="top"><a href="https://play.google.com/store/apps/details?id=com.medievilstudio.spaceholic"><img src="assets/spaceholic.png" alt="Spaceholic!" width="100%"></a><br><sub>MOBILE</sub><br><strong>Spaceholic!</strong><br><br><a href="https://play.google.com/store/apps/details?id=com.medievilstudio.spaceholic">Visit game ↗</a></td>
+## Multiplayer worlds & immersive experiences
 
-</tr></table>
+<p><a href="https://metcity.xyz/"><img src="assets/world-0.png" alt="Met City: Unity · WebGL · Multiplayer · AWS. Visit world." width="32%"></a>
+<a href="https://metaverse.egold.farm/"><img src="assets/world-1.png" alt="E-Gold City: Unity · Metaverse · Interactive worlds. Visit world." width="32%"></a>
+<a href="https://nanoverse.io/"><img src="assets/world-2.png" alt="Nanoverse: Unity · Virtual worlds · Interactive systems. Visit world." width="32%"></a></p>
 
-| More games | Platform |
+## Neon Snake
 
-| :--- | :--- |
-
-| [Burgerology ↗](https://play.google.com/store/apps/details?id=com.medievil.burgerology) | Mobile |
-
-| [Shark Attack ↗](https://play.google.com/store/apps/details?id=com.fpg.sharkattack) | Mobile |
-
-| [War Troops 1917 ↗](https://play.google.com/store/apps/details?id=com.wartroops1917.trench.warfare) | Mobile |
-
-## The toolkit
-
-<table><tr>
-
-<td valign="top"><strong>Engines &amp; platforms</strong><br><br>Unity<br>Unreal Engine<br>Roblox</td>
-
-<td valign="top"><strong>Code</strong><br><br>C#<br>C++<br>Python<br>JavaScript</td>
-
-<td valign="top"><strong>Multiplayer &amp; backend</strong><br><br>Photon<br>FishNet<br>Mirror<br>WebRTC<br>Firebase<br>PlayFab<br>AWS</td>
-
-<td valign="top"><strong>Creative &amp; workflow</strong><br><br>Blender<br>Figma<br>Git<br>Shaders<br>VR<br>Optimization</td>
-
-</tr></table>
-
-## Built beyond the screen
-
-**[Met City ↗](https://metcity.xyz/)** · Unity · WebGL · Multiplayer · AWS  <br>
-
-**[E-Gold City ↗](https://metaverse.egold.farm/)** · Unity · Metaverse · Interactive worlds  <br>
-
-**[Nanoverse ↗](https://nanoverse.io/)** · Unity · Virtual worlds · Interactive systems  <br>
-
-## A little less scrolling. A little more playing.
-
-**[Play Neon Snake →](https://sayedturzo.github.io/SayedTurzo/#arcade)** — keyboard, touch controls, and a personal best. Runs on the companion page.
+The browser game is built. Public access will appear here after GitHub Pages deployment is verified. [Deployment setup →](CUSTOMIZE.md#make-it-live-on-github)
 
 ## Contribution trail
 

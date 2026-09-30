@@ -9,7 +9,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: profile-refresh
+  group: profile-content
   cancel-in-progress: false
 jobs:
   refresh:
