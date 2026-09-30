@@ -20,7 +20,7 @@
 
 ## What I build with
 
-<img src="assets/toolkit.png?v=da03db57a372" alt="Engines &amp; platforms: Unity, Unreal Engine, Roblox, Godot, WebGL, AR / VR; Code: C#, C++, Python, JavaScript; Multiplayer &amp; backend: Photon, FishNet, Mirror, WebRTC, Firebase, PlayFab, AWS, PurrNet, DarkRift 2, REST APIs, Addressables; Creative &amp; workflow: Blender, Figma, Git, Shader Graph, HDRP, Optimization, Unity editor tools; Engineering &amp; AI: SOLID principles, Design patterns, FSMs, Machine learning, Game AI; Game production: Game design, UI / VFX, Localization, In-app purchases, Playable ads, Live operations" width="100%">
+<img src="assets/toolkit.png?v=163165f8b7e4" alt="Engines &amp; platforms: Unity, Unreal Engine, Roblox, Godot, WebGL, AR / VR; Code: C#, C++, Python, JavaScript, Luau; Multiplayer &amp; backend: Photon, FishNet, Mirror, WebRTC, Firebase, PlayFab, AWS, PurrNet, DarkRift 2, REST APIs, Addressables; Creative &amp; workflow: Blender, Figma, Git, Shader Graph, HDRP, Optimization, Unity editor tools; Engineering &amp; AI: SOLID principles, Design patterns, FSMs, Machine learning, Game AI; Game production: Game design, UI / VFX, Localization, In-app purchases, Playable ads, Live operations" width="100%">
 
 ## Your turn to play
 
