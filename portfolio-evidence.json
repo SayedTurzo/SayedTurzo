@@ -1,261 +1,6 @@
 {
-  "name": "Sayed Turzo",
-  "username": "SayedTurzo",
-  "headline": "I build worlds you can play.",
-  "bio": "Game developer from Bangladesh creating published mobile games, Roblox experiences, multiplayer worlds and VR simulations. I turn ideas into responsive gameplay and the systems behind it.",
-  "siteUrl": "https://sayedturzo.github.io/",
-  "email": "abusayedbinabdullah@gmail.com",
-  "portfolio": "https://sayedturzo.github.io/",
-  "linkedin": "https://www.linkedin.com/in/sayedturzo/",
-  "theme": {
-    "accent": "#c5ff61",
-    "secondary": "#a99cff",
-    "background": "#0b0d12"
-  },
-  "skills": [
-    {
-      "category": "Engines & platforms",
-      "items": [
-        "Unity",
-        "Unreal Engine",
-        "Roblox",
-        "Godot",
-        "WebGL",
-        "AR / VR"
-      ]
-    },
-    {
-      "category": "Code",
-      "items": [
-        "C#",
-        "C++",
-        "Python",
-        "JavaScript"
-      ]
-    },
-    {
-      "category": "Multiplayer & backend",
-      "items": [
-        "Photon",
-        "FishNet",
-        "Mirror",
-        "WebRTC",
-        "Firebase",
-        "PlayFab",
-        "AWS",
-        "PurrNet",
-        "DarkRift 2",
-        "REST APIs",
-        "Addressables"
-      ]
-    },
-    {
-      "category": "Creative & workflow",
-      "items": [
-        "Blender",
-        "Figma",
-        "Git",
-        "Shader Graph",
-        "HDRP",
-        "Optimization",
-        "Unity editor tools"
-      ]
-    },
-    {
-      "category": "Engineering & AI",
-      "items": [
-        "SOLID principles",
-        "Design patterns",
-        "FSMs",
-        "Machine learning",
-        "Game AI"
-      ]
-    },
-    {
-      "category": "Game production",
-      "items": [
-        "Game design",
-        "UI / VFX",
-        "Localization",
-        "In-app purchases",
-        "Playable ads",
-        "Live operations"
-      ]
-    }
-  ],
-  "games": [
-    {
-      "id": "clean-a-crime",
-      "title": "Clean a Crime",
-      "platform": "Roblox",
-      "description": "A Roblox experience I worked on.",
-      "url": "https://www.roblox.com/games/126295191500786/Clean-a-Crime",
-      "accent": "#c5ff61",
-      "symbol": "01",
-      "featured": true,
-      "coverImage": "assets/sources/clean-a-crime.png"
-    },
-    {
-      "id": "disgusting",
-      "title": "OMG! This Place Is DISGUSTING",
-      "platform": "Roblox",
-      "description": "A Roblox experience I worked on.",
-      "url": "https://www.roblox.com/games/81057871278887/OMG-This-Place-Is-DISGUSTING",
-      "accent": "#a99cff",
-      "symbol": "02",
-      "featured": true,
-      "coverImage": "assets/sources/disgusting.png"
-    },
-    {
-      "title": "Bullet Rush",
-      "id": "bullet-rush",
-      "url": "https://play.google.com/store/apps/details?id=com.sae.bulletrush&hl=en",
-      "images": [
-        "assets/sources/portfolio/bullet-rush-0.webp",
-        "assets/sources/portfolio/bullet-rush-1.webp",
-        "assets/sources/portfolio/bullet-rush-2.webp"
-      ],
-      "icon": "assets/sources/portfolio/bullet-rush-icon.webp",
-      "youtubeId": "CEndcRLKA_Q",
-      "platform": "Android",
-      "description": "A mobile run-and-gun shooter with enemy waves, weapon upgrades and one-touch controls.",
-      "accent": "#c5ff61",
-      "symbol": "03",
-      "featured": true,
-      "coverImage": "assets/sources/portfolio/archive-01.webp",
-      "publisher": "Gamalith Studio",
-      "role": "Published game"
-    },
-    {
-      "title": "Ball Sorting Puzzle",
-      "id": "ball-sorting-puzzle",
-      "url": "https://play.google.com/store/apps/details?id=com.sae.ballsorting&hl=en",
-      "images": [
-        "assets/sources/portfolio/ball-sorting-puzzle-0.webp",
-        "assets/sources/portfolio/ball-sorting-puzzle-1.webp",
-        "assets/sources/portfolio/ball-sorting-puzzle-2.webp",
-        "assets/sources/portfolio/ball-sorting-puzzle-3.webp",
-        "assets/sources/portfolio/ball-sorting-puzzle-4.webp"
-      ],
-      "icon": "assets/sources/portfolio/ball-sorting-puzzle-icon.webp",
-      "youtubeId": "yUJraXWDppw",
-      "platform": "Android",
-      "description": "A colour-sorting puzzle built around simple touch controls and increasingly challenging bottle puzzles.",
-      "accent": "#a99cff",
-      "symbol": "04",
-      "featured": true,
-      "coverImage": "assets/sources/portfolio/archive-02.webp",
-      "publisher": "Gamalith Studio",
-      "role": "Published game"
-    },
-    {
-      "title": "Double Dash",
-      "id": "double-dash",
-      "url": "https://play.google.com/store/apps/details?id=com.SAE.DoubleDash&hl=en",
-      "images": [
-        "assets/sources/portfolio/double-dash-0.webp",
-        "assets/sources/portfolio/double-dash-1.webp",
-        "assets/sources/portfolio/double-dash-2.webp",
-        "assets/sources/portfolio/double-dash-3.webp",
-        "assets/sources/portfolio/double-dash-4.webp",
-        "assets/sources/portfolio/double-dash-5.webp"
-      ],
-      "icon": "assets/sources/portfolio/double-dash-icon.webp",
-      "youtubeId": "657S3ZOD-nA",
-      "platform": "Android",
-      "description": "An arcade driving challenge: steer two cars at once, dodge obstacles and collect power-ups.",
-      "accent": "#c5ff61",
-      "symbol": "05",
-      "featured": false,
-      "coverImage": "assets/sources/portfolio/archive-03.webp",
-      "publisher": "Gamalith Studio",
-      "role": "Published game"
-    },
-    {
-      "title": "Bus Stop Rush",
-      "id": "bus-stop-rush",
-      "url": "https://play.google.com/store/apps/details?id=com.sae.busstoprush&hl=en",
-      "images": [
-        "assets/sources/portfolio/bus-stop-rush-0.webp",
-        "assets/sources/portfolio/bus-stop-rush-1.webp",
-        "assets/sources/portfolio/bus-stop-rush-2.webp",
-        "assets/sources/portfolio/bus-stop-rush-3.webp"
-      ],
-      "icon": "assets/sources/portfolio/bus-stop-rush-icon.webp",
-      "youtubeId": "657S3ZOD-nA",
-      "platform": "Android",
-      "description": "A traffic puzzle about managing buses and passengers at busy city stops.",
-      "accent": "#a99cff",
-      "symbol": "06",
-      "featured": false,
-      "coverImage": "assets/sources/portfolio/archive-04.webp",
-      "publisher": "Gamalith Studio",
-      "role": "Published game"
-    }
-  ],
-  "worlds": [],
-  "experience": [
-    {
-      "company": "Next IT LTD.",
-      "role": "Unity Developer",
-      "dates": "11/2023 – Present",
-      "detail": "Interactive mini games and smart restaurant systems. Code refactoring, game AI, UI animation, VFX, HDRP optimization and split-screen touch input."
-    },
-    {
-      "company": "Supertal Pte. Ltd.",
-      "role": "Senior Game Developer",
-      "dates": "03/2023 – 10/2023",
-      "detail": "Persib Bandung metaverse: multiplayer networking, REST APIs, FSM-based NPC interactions, Addressables, asset bundles and Firebase / PlayFab integration."
-    },
-    {
-      "company": "Royex Technologies",
-      "role": "Senior Game Developer",
-      "dates": "08/2022 – 12/2022",
-      "detail": "Multiplayer metaverse projects, animation blend trees, finite state machines, dedicated servers on AWS, WebGL and in-game voice chat."
-    },
-    {
-      "company": "March Robotics And IT Solutions",
-      "role": "Senior Unity Developer",
-      "dates": "03/2022 – 08/2022",
-      "detail": "VR training simulations, VR system implementation and databases supporting multiple connections."
-    },
-    {
-      "company": "Hi Tech Bangla, Bangladesh",
-      "role": "Unity Game Developer",
-      "dates": "07/2021 – 12/2021",
-      "detail": "Tactical communication training simulations with VR / AR integration and radio communication in Unity."
-    },
-    {
-      "company": "Games 4 Life",
-      "role": "Unity Game Developer",
-      "dates": "06/2021 – 10/2021",
-      "detail": "Hyper-casual games from scratch, game design documentation, localization, in-app purchases and UI."
-    },
-    {
-      "company": "Free Pixel LTD",
-      "role": "Game Developer",
-      "dates": "02/2021 – 06/2021",
-      "detail": "Live operations and in-game events. Playable ads using Luna Playables, Cocos2d-js and ImpactJS."
-    },
-    {
-      "company": "Zelox Entertainment",
-      "role": "Unity Game Developer",
-      "dates": "08/2020 – 03/2021",
-      "detail": "2D / 3D game reskins, original Unity games and render pipeline conversion."
-    },
-    {
-      "company": "MediEvil Studio",
-      "role": "Game Developer",
-      "dates": "03/2020 – Present",
-      "detail": "Hyper-casual games, multiplayer networking, metaverse projects and Unity shaders."
-    }
-  ],
-  "sitePublished": true,
-  "previousPortfolio": "https://sites.google.com/view/sayedturzo",
-  "publisher": "https://play.google.com/store/apps/dev?id=6711372526826018293&hl=en",
-  "fullName": "Abu Sayed Bin Abdullah",
-  "location": "Bangladesh",
-  "demonstrations": [
+  "source": "https://sites.google.com/view/sayedturzo",
+  "videos": [
     {
       "youtubeId": "K8Dx-wScUZw",
       "title": "Adding , dropping , filtering items in inventory - Unity inventory stystem (RPG)",
@@ -652,82 +397,60 @@
       "source": "https://sites.google.com/view/sayedturzo"
     }
   ],
-  "cvUrl": "https://drive.google.com/file/d/1TVAkTZdBTZc5MHnD8kPyGQgVpTpO0IQR/view",
-  "education": [
+  "apps": [
     {
-      "qualification": "B.Sc. in Computer Science",
-      "institution": "BRAC University",
-      "year": "2020"
+      "title": "Bullet Rush",
+      "id": "bullet-rush",
+      "url": "https://play.google.com/store/apps/details?id=com.sae.bulletrush&hl=en",
+      "images": [
+        "assets/sources/portfolio/bullet-rush-0.webp",
+        "assets/sources/portfolio/bullet-rush-1.webp",
+        "assets/sources/portfolio/bullet-rush-2.webp"
+      ],
+      "icon": "assets/sources/portfolio/bullet-rush-icon.webp",
+      "youtubeId": "CEndcRLKA_Q"
     },
     {
-      "qualification": "Higher Secondary Certificate",
-      "institution": "Govt. Azizul Haque College, Bogra",
-      "year": "2014"
+      "title": "Ball Sorting Puzzle",
+      "id": "ball-sorting-puzzle",
+      "url": "https://play.google.com/store/apps/details?id=com.sae.ballsorting&hl=en",
+      "images": [
+        "assets/sources/portfolio/ball-sorting-puzzle-0.webp",
+        "assets/sources/portfolio/ball-sorting-puzzle-1.webp",
+        "assets/sources/portfolio/ball-sorting-puzzle-2.webp",
+        "assets/sources/portfolio/ball-sorting-puzzle-3.webp",
+        "assets/sources/portfolio/ball-sorting-puzzle-4.webp"
+      ],
+      "icon": "assets/sources/portfolio/ball-sorting-puzzle-icon.webp",
+      "youtubeId": "yUJraXWDppw"
     },
     {
-      "qualification": "Secondary School Certificate",
-      "institution": "Police Lines High School and College, Bogra",
-      "year": "2012"
+      "title": "Double Dash",
+      "id": "double-dash",
+      "url": "https://play.google.com/store/apps/details?id=com.SAE.DoubleDash&hl=en",
+      "images": [
+        "assets/sources/portfolio/double-dash-0.webp",
+        "assets/sources/portfolio/double-dash-1.webp",
+        "assets/sources/portfolio/double-dash-2.webp",
+        "assets/sources/portfolio/double-dash-3.webp",
+        "assets/sources/portfolio/double-dash-4.webp",
+        "assets/sources/portfolio/double-dash-5.webp"
+      ],
+      "icon": "assets/sources/portfolio/double-dash-icon.webp",
+      "youtubeId": "657S3ZOD-nA"
+    },
+    {
+      "title": "Bus Stop Rush",
+      "id": "bus-stop-rush",
+      "url": "https://play.google.com/store/apps/details?id=com.sae.busstoprush&hl=en",
+      "images": [
+        "assets/sources/portfolio/bus-stop-rush-0.webp",
+        "assets/sources/portfolio/bus-stop-rush-1.webp",
+        "assets/sources/portfolio/bus-stop-rush-2.webp",
+        "assets/sources/portfolio/bus-stop-rush-3.webp"
+      ],
+      "icon": "assets/sources/portfolio/bus-stop-rush-icon.webp",
+      "youtubeId": "657S3ZOD-nA"
     }
-  ],
-  "specialties": [
-    "Gameplay & game systems",
-    "Multiplayer & networking",
-    "VR & interactive simulation",
-    "Unity tools & optimization"
-  ],
-  "portrait": "assets/sources/portfolio/archive-00.webp",
-  "heroImage": "assets/sources/portfolio/archive-05.webp",
-  "archiveProjects": [
-    {
-      "title": "Against the Dawn — Revamped",
-      "description": "An action adventure prototype with exploration, combat and open environments.",
-      "images": [
-        "assets/sources/portfolio/archive-05.webp",
-        "assets/sources/portfolio/archive-06.webp",
-        "assets/sources/portfolio/archive-07.webp",
-        "assets/sources/portfolio/archive-08.webp",
-        "assets/sources/portfolio/archive-09.webp",
-        "assets/sources/portfolio/archive-10.webp"
-      ]
-    },
-    {
-      "title": "Mukti Juddho",
-      "description": "A shooter project with campaign, level selection and mobile gameplay interfaces.",
-      "images": [
-        "assets/sources/portfolio/archive-11.webp",
-        "assets/sources/portfolio/archive-12.webp",
-        "assets/sources/portfolio/archive-13.webp",
-        "assets/sources/portfolio/archive-14.webp",
-        "assets/sources/portfolio/archive-15.webp",
-        "assets/sources/portfolio/archive-16.webp"
-      ]
-    },
-    {
-      "title": "Triumphs Conquests",
-      "description": "A multiplayer gameplay project with lobby and third-person combat interfaces.",
-      "images": [
-        "assets/sources/portfolio/archive-18.webp",
-        "assets/sources/portfolio/archive-20.webp",
-        "assets/sources/portfolio/archive-22.webp"
-      ]
-    },
-    {
-      "title": "Training & VR simulations",
-      "description": "Work spanning tactical training, engine-room simulation and UN peacekeeping simulation.",
-      "images": [
-        "assets/sources/portfolio/archive-25.webp",
-        "assets/sources/portfolio/archive-26.webp",
-        "assets/sources/portfolio/archive-27.webp"
-      ]
-    },
-    {
-      "title": "Pop it — Relaxing Games",
-      "description": "A mobile fidget and stress-relief game from my earlier project portfolio.",
-      "images": [
-        "assets/sources/portfolio/archive-23.webp"
-      ]
-    }
-  ],
-  "phone": "+8801744947285"
+  ]
 }

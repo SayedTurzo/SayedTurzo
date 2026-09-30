@@ -2,6 +2,17 @@
 
 `profile.json` is the content source for both the GitHub profile and playable portfolio. Do not edit generated README sections or `site/profile.json` directly.
 
+## Professional portfolio content
+
+The root website is your primary portfolio. `portfolio` should point to `https://sayedturzo.github.io/`; `previousPortfolio` records the original Google Sites source and `publisher` points to your Google Play catalogue.
+
+- `games`: published game cards. `images` is an array of local screenshot paths; optional `youtubeId` supplies the trailer. Clicking a card opens its gallery, trailer and platform button.
+- `demonstrations`: `{ "title": "Project name", "category": "Multiplayer", "youtubeId": "VIDEO_ID" }`. Search and categories update automatically. Videos load only when opened; closing the dialog stops playback.
+- `archiveProjects`: `{ "title": "Project name", "description": "Short overview", "images": ["assets/sources/my-image.webp"] }`. Keep unavailable historical projects here with images or verified video IDs, without broken outbound URLs.
+- `experience`: company, role, `dates` and detail. `education`, `portrait`, `heroImage`, `specialties`, `phone` and `cvUrl` control the professional profile sections.
+
+Store new media inside `assets/sources/`. Rebuild, review locally and publish with the existing workflows. `PORTFOLIO_SOURCES.md` documents provenance and import limitations; `portfolio-evidence.json` preserves original source media and titles. Import scripts use BeautifulSoup and Pillow and run explicitly, not as part of the regular build. Review imported content before replacing curated `profile.json`.
+
 ## Add a game
 
 Copy an entry in `games`. Give it a unique, lowercase, hyphenated `id`, a `title`, `platform`, `description`, `url` and `accent`. Set `featured: true` to put it in the README showcase. Featured games are arranged in pairs. All games appear on the companion site and filter automatically by platform.

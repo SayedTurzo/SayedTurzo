@@ -74,7 +74,7 @@ def cover(g):
     im.save(ASSETS/(g['id']+'.png'))
 
 def toolkit():
-    im=Image.new('RGB',(1200,480),P['theme']['background']);d=ImageDraw.Draw(im)
+    im=Image.new('RGB',(1200,((len(P['skills'])+1)//2)*235+10),P['theme']['background']);d=ImageDraw.Draw(im)
     for index,skill in enumerate(P['skills']):
         x=20+(index%2)*590;y=15+(index//2)*235;accent=P['theme']['accent'] if index%2==0 else P['theme']['secondary']
         d.rounded_rectangle((x,y,x+570,y+215),radius=20,fill='#141a23',outline='#293341',width=2)
